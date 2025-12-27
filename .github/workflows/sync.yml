@@ -1,0 +1,34 @@
+name: Sync Rulesets
+
+on:
+  push:
+    paths:
+      - 'src/**'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Generate Rulesets
+        run: |
+          mkdir -p release
+          for file in src/*.txt; do
+            filename=$(basename "$file" .txt)
+            # 生成 Surge/Egern 格式
+            sed 's/^/DOMAIN-SUFFIX,/' "$file" > "release/${filename}_surge.list"
+            # 生成 Stash YAML 格式
+            echo "payload:" > "release/${filename}_stash.yaml"
+            sed "s/^/  - '/;s/$/'/" "$file" >> "release/${filename}_stash.yaml"
+          done
+
+      - name: Commit and Push
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add release/
+          git commit -m "Auto-generate rulesets from src" || exit 0
+          git push
