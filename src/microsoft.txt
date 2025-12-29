@@ -1,6 +1,7 @@
 # === [Microsoft Direct List - 纯直连域名列表] ===
 # 核心账户与文档 (Core Accounts & Docs)
 microsoft.com
+microsoftonline.com
 login.live.com
 account.microsoft.com
 learn.microsoft.com
