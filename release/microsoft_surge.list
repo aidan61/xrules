@@ -1,16 +1,11 @@
 DOMAIN-SUFFIX,microsoft.com
 DOMAIN-SUFFIX,microsoftonline.com
 DOMAIN-SUFFIX,login.live.com
-DOMAIN-SUFFIX,account.microsoft.com
-DOMAIN-SUFFIX,learn.microsoft.com
-DOMAIN-SUFFIX,support.microsoft.com
 DOMAIN-SUFFIX,cn.bing.com
 DOMAIN-SUFFIX,cn.msn.com
-DOMAIN-SUFFIX,teams.microsoft.com
 DOMAIN-SUFFIX,office.com
 DOMAIN-SUFFIX,microsoft365.com
 DOMAIN-SUFFIX,windowsupdate.com
-DOMAIN-SUFFIX,delivery.mp.microsoft.com
 DOMAIN-SUFFIX,portal.azure.cn
 DOMAIN-SUFFIX,portal.partner.microsoftonline.cn
 DOMAIN-SUFFIX,partner.outlook.cn
