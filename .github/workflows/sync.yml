@@ -1,3 +1,18 @@
+name: Sync Rulesets
+
+on:
+  push:
+    paths:
+      - 'src/**'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
 - name: Generate Rulesets
         run: |
           mkdir -p release
@@ -16,3 +31,11 @@
             
             rm temp.txt
           done
+
+      - name: Commit and Push
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add release/
+          git commit -m "Auto-generate rulesets from src" || exit 0
+          git push
