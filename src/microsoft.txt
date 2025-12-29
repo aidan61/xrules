@@ -3,20 +3,15 @@
 microsoft.com
 microsoftonline.com
 login.live.com
-account.microsoft.com
-learn.microsoft.com
-support.microsoft.com
 
 # 必应搜索与资讯 (Bing & MSN China)
 cn.bing.com
 cn.msn.com
 
 # 办公协作与系统更新 (Office & Windows Update)
-teams.microsoft.com
 office.com
 microsoft365.com
 windowsupdate.com
-delivery.mp.microsoft.com
 
 # 世纪互联运营版 (21Vianet China)
 portal.azure.cn
