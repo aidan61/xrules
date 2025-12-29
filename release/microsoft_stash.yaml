@@ -1,5 +1,6 @@
 payload:
   - 'microsoft.com'
+  - 'microsoftonline.com'
   - 'login.live.com'
   - 'account.microsoft.com'
   - 'learn.microsoft.com'
