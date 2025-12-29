@@ -13,7 +13,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-- name: Generate Rulesets
+      - name: Generate Rulesets
         run: |
           mkdir -p release
           for file in src/*.txt; do
