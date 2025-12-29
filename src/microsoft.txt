@@ -1,37 +1,27 @@
-# Microsoft Services Available in Mainland China (Clean List)
-# Generated for: Ruleset / Filter List
-# Updated: 2025-12-28
-
-# [1. Global Basic Services]
+# === [Microsoft Direct List - 纯直连域名列表] ===
+# 核心账户与文档 (Core Accounts & Docs)
 microsoft.com
 login.live.com
 account.microsoft.com
 learn.microsoft.com
 support.microsoft.com
 
-# [2. Search & News]
+# 必应搜索与资讯 (Bing & MSN China)
 cn.bing.com
 cn.msn.com
 
-# [3. Office & Collaboration]
+# 办公协作与系统更新 (Office & Windows Update)
 teams.microsoft.com
-outlook.live.com
 office.com
 microsoft365.com
-
-# [4. Developer & System]
-github.com
-visualstudio.com
 windowsupdate.com
 delivery.mp.microsoft.com
 
-# [5. China-Specific (21Vianet)]
+# 世纪互联运营版 (21Vianet China)
 portal.azure.cn
 portal.partner.microsoftonline.cn
 partner.outlook.cn
 sharepoint.cn
 
-# [6. Common CDNs & Assets]
+# 静态资源 (Static Assets)
 aspnetcdn.com
-msecnd.net
-microsoft.com-c.edgekey.net
