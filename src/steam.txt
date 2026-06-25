@@ -1,1 +1,17 @@
+# Steam Core & API
 steampowered.com
+steamcommunity.com
+steamgames.com
+steam-chat.com
+steaminfo.com
+steamserver.net
+steam.tv
+
+# Steam Content & CDN
+steamcontent.com
+steamstatic.com
+steamusercontent.com
+
+# The Bazaar
+playthebazaar.com
+thebazaar.gg
