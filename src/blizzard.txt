@@ -1,0 +1,50 @@
+# 核心域名
+battle.net
+battlenet.com
+blizzard.com
+blizzard.net
+
+# 登录与账户
+account.battle.net
+login.battle.net
+oauth.battle.net
+us.battle.net
+eu.battle.net
+kr.battle.net
+asia.battle.net
+geo.battle.net
+
+# API
+api.blizzard.com
+us.api.blizzard.com
+eu.api.blizzard.com
+kr.api.blizzard.com
+tw.api.blizzard.com
+
+# CDN / 下载
+cdn.blizzard.com
+us.cdn.blizzard.com
+eu.cdn.blizzard.com
+kr.cdn.blizzard.com
+level3.blizzard.com
+level3.ssl.blizzard.com
+blzddist1-a.akamaihd.net
+blzddist2-a.akamaihd.net
+blzddist3-a.akamaihd.net
+blzddistkr1-a.akamaihd.net
+bnetcmsus-a.akamaihd.net
+bnetproduct-a.akamaihd.net
+bnetshopus.akamaized.net
+blzmedia-a.akamaihd.net
+blznav.akamaized.net
+blizzcon-a.akamaihd.net
+
+# 炉石相关
+playhearthstone.com
+hearthstone.blizzard.com
+firesidegatherings.com
+
+# 其他常用
+support.blizzard.com
+www.blizzard.com
+nydus.battle.net
